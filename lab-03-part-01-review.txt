@@ -15,15 +15,15 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
-
+~
 
 ==========
 2. Prove that you're in your home directory.
 
 Write the command that you used to do this - as well as its output - below :
 ----------
-
+pwd
+/Users/student
 
 
 ==========
@@ -31,8 +31,8 @@ Write the command that you used to do this - as well as its output - below :
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-
-
+cd mtec1002
+cd: mtec1002: No such file or directory
 
 ==========
 4. If there are directories or files in your home directory that have the word mtec1003 in them, list them below (otherwise skip this step):
@@ -67,16 +67,16 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
-
-
+curl -o mtec1002-lab-03.tar.gz http://foureyes.github.io/mtec1002-spring2014/labs/03/mtec1002-lab-03.tar.gz
 
 ==========
 7.  Uncompress the file that you just downloaded.
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
-
+tar -xvf mtec1002-lab-03.tar.gz
+tar: Unrecognized archive format
+tar: Error exit delayed from previous errors.
 
 ==========
 8.  You should now have a directory called mtec1003-lab-03 in your home directory.  Verify that this directory exists.
@@ -90,15 +90,14 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
-
+cd mtec1002-lab-03
 
 ==========
 9.  What directories are in the mtec1003-lab-03 folder?
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-
+None
 
 
 ==========
@@ -106,8 +105,11 @@ Write the command(s) that you used to determine this - as well as its output - b
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
-
-
+cd ~
+mkdir -p mtec1002-lab-03/science-fiction
+v314-ent-016:~ student$ cd mtec1002-lab-03/science-fiction
+v314-ent-016:science-fiction student$ pwd
+/Users/student/mtec1002-lab-03/science-fiction
 
 ==========
 11.  Write the files that are in the science fiction directory below.
@@ -115,28 +117,28 @@ Write the command(s) (including going home) that you used to do this below:
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
 
-
-
+ls -a
+.	..
 ==========
 12.  Again, go back to your home directory.  Now... go to the science-fiction directory using an absolute path!  Verify that you're in the right directory using pwd.
 
 Write the command(s) that you used to do this below:
 ----------
-
-==========
+/User/student/mtec1002-lab-03/science-fiction: No such file or directory, No such file or directory was the response. ==========
 13. Immediately change back to the mtec1003-lab-03 folder with a single command using a *relative* path.
 
 Write the command(s) that you used to do this below:
 ----------
-
+Error
 ==========
 14. Find out what the most recently modified directory is in mtec1003 (there are only 3 to choose from)?  How would you find this out?  Hint: perhaps using something to show the modified date... and sort it by time.
 
 Write the command(s) that you used to do this below:
 ----------
-
+Error
 ==========
 15. Create a compressed archive of the logs folder - that is... take the contents of logs and create a single archive (.tar), and compress (.gz)
 
 Write the command(s) that you used to do this below:
 ----------
+Error
