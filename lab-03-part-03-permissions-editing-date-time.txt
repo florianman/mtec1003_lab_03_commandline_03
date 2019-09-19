@@ -17,15 +17,16 @@ We're going to be writing a shell script.  First, though... let's figure out wha
 
 What command did you use, and what was its output?
 ----------
-
-
+date
+Thu Sep 19 12:15:08 EDT 2019
 
 ==========
 2. Print out a calendar for this month.
 
 What command did you use, and what was its output?
 ----------
-
+cal 2019
+all the calender months
 
 
 ==========
@@ -33,7 +34,7 @@ What command did you use, and what was its output?
 
 What commands did you use to do this?
 ----------
-
+pwd
 
 
 ==========
@@ -41,7 +42,7 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+ls
 
 
 ==========
@@ -49,17 +50,16 @@ What commands did you use to do this?
 
 What command did you use to find the permissions?
 ----------
-
-
+ls -l copy_to_backup.sh
+-rw-r--r--  1 student  staff  0 Sep 19 12:17 copy_to_backup.sh
 
 ==========
 6. Change the permissions so that this file is executable by the user.  Verify the new permissions.
 
 What commands did you use to do this?  What was the output?
 ----------
-
-
-
+chmod u+x copy_to_backup.sh
+-rwxr--r--  1 student  staff  0 Sep 19 12:17 copy_to_backup.sh
 ==========
 7. Try executing the file!
 
@@ -67,15 +67,15 @@ $ ./copy_to_backup.sh
 
 What command did you use to try to execute the file?  What happens?
 ----------
-
-
+#!/bin/bash ./copy_to_backup.sh
+Nothing happened. 
 
 ==========
 8. Open the file with nano
 
 What command did you use to do this?
 ----------
-
+nano copy_to_backup.sh
 
 
 ==========
@@ -89,8 +89,10 @@ Don't forget the first line of your shell script! It should begin with #!/bin/ba
 
 Write out the code in your file below...
 ----------
-
-
+mkdir backup 
+cp copy_to_backup.sh backup.txt
+#! /bin/bash
+# Prints "I'm done backing up"
 
 ==========
 10. Create a directory in your home called test
@@ -103,15 +105,14 @@ Write out the code in your file below...
 
 What commands did you use to do this?
 ----------
-
-
+touch 1.txt 2.txt
 
 ==========
 12. Move the script that you created into this directory.
 
 What commands did you use to do this?
 ----------
-
+Mistakes were made, I assume. 
 
 
 ==========
@@ -119,11 +120,12 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+Mistakes were made, I assume. 
 
 
 ==========
 14. Verify that a backup folder was created in your test directory... with copies of the files present.
 
 What commands did you use to do this?  Show the output.
+Mistakes were made, I assume. 
 ----------
