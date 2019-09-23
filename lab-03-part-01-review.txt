@@ -74,10 +74,9 @@ curl -o mtec1002-lab-03.tar.gz http://foureyes.github.io/mtec1002-spring2014/lab
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-tar -xvf mtec1002-lab-03.tar.gz
+student$ tar -xvf mtec1002-lab-03.tar.gz
 tar: Unrecognized archive format
 tar: Error exit delayed from previous errors.
-
 ==========
 8.  You should now have a directory called mtec1003-lab-03 in your home directory.  Verify that this directory exists.
 
@@ -129,7 +128,7 @@ Write the command(s) that you used to do this below:
 
 Write the command(s) that you used to do this below:
 ----------
-Error
+cd ../..
 ==========
 14. Find out what the most recently modified directory is in mtec1003 (there are only 3 to choose from)?  How would you find this out?  Hint: perhaps using something to show the modified date... and sort it by time.
 
